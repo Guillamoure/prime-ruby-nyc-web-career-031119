@@ -1,6 +1,6 @@
 # Add  code here!
 def prime?(n)
-  if n < 0
+  if n < 1
    return FALSE 
   end
   one_less = n - 1
