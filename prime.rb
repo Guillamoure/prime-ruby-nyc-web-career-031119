@@ -4,9 +4,9 @@ def prime?(n)
   range = Array (2..one_less)
   range.each do |x|
     if n % x == 0
-      puts TRUE
-  else 
-    puts FALSE
+      puts FALSE
+  else
+    puts TRUE
   end
   end
 end
